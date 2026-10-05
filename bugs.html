@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Bug Reports — Your Name</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="background"><div class="grid"></div><div class="glow one"></div><div class="glow two"></div></div>
+
+<nav class="navbar">
+ <div class="nav-inner">
+  <a class="logo" href="index.html">YOUR<span>NAME</span></a>
+  <button class="mobile-menu" aria-label="Open menu">☰</button>
+  <ul class="nav-links">
+   <li><a class="" href="index.html">Home</a></li>
+   <li><a class="" href="about.html">About</a></li>
+   <li><a class="" href="projects.html">Projects</a></li>
+   <li><a class="active" href="bugs.html">Bug Reports</a></li>
+   <li><a class="" href="contact.html">Contact</a></li>
+  </ul>
+ </div>
+</nav>
+
+<section class="page-hero"><div class="container reveal"><div class="section-label">CASE STUDIES</div><h1>Bugs I've<br><span class="gradient">caught.</span></h1><p>Examples of the type of issues I investigate, reproduce and communicate to developers.</p></div></section>
+
+<section><div class="container"><div class="bugs">
+<article class="bug reveal"><div><h3 class="bug-title">Server capacity exceeded available gardens</h3><p class="bug-description">The server was configured to support 50 players while only 5 gardens existed. Players without a garden could fall into the void.</p><div class="bug-meta"><span class="tag">Multiplayer</span><span class="tag">Configuration</span><span class="tag">Reproducible</span></div></div><span class="severity high">HIGH</span></article>
+<article class="bug reveal"><div><h3 class="bug-title">Projectile targets wall when camera sees behind it</h3><p class="bug-description">When the player's camera could see behind a wall, the projectile could target the wall instead of following the apparent aiming direction.</p><div class="bug-meta"><span class="tag">Camera</span><span class="tag">Gameplay</span><span class="tag">Targeting</span></div></div><span class="severity medium">MEDIUM</span></article>
+<article class="bug reveal"><div><h3 class="bug-title">Text exceeds UI container boundaries</h3><p class="bug-description">Longer text causes the second line to extend beyond the intended boundaries of the text box.</p><div class="bug-meta"><span class="tag">UI</span><span class="tag">Text</span></div></div><span class="severity low">LOW</span></article>
+</div></div></section>
+
+<section><div class="container"><div class="section-label">FULL CASE STUDY TEMPLATE</div><h2 class="section-title">Turn findings into evidence.</h2><div class="bug-detail">
+<div>
+<div class="detail-box reveal"><h3>Issue</h3><p>Describe exactly what is going wrong without unnecessary speculation.</p></div>
+<div class="detail-box reveal"><h3>Steps to reproduce</h3><ol><li>Enter the game.</li><li>Perform the required action.</li><li>Repeat or change the relevant condition.</li><li>Observe the unexpected result.</li></ol></div>
+<div class="detail-box reveal"><h3>Expected result</h3><p>Explain what should have happened.</p></div>
+<div class="detail-box reveal"><h3>Actual result</h3><p>Explain what actually happened and how it differs.</p></div>
+<div class="detail-box reveal"><h3>Evidence</h3><p>Add screenshots, videos, logs, or other supporting material here.</p></div>
+</div>
+<div class="side-box">
+<div class="card reveal"><div class="side-stat"><small>Severity</small><strong>High</strong></div><div class="side-stat"><small>Reproduction</small><strong>100%</strong></div><div class="side-stat"><small>Category</small><strong>Gameplay</strong></div><div class="side-stat"><small>Status</small><strong>Reported</strong></div></div>
+</div>
+</div></div></section>
+
+<footer><div class="container">© 2026 YOUR NAME · Roblox QA Tester</div></footer>
+<script src="script.js"></script>
+</body></html>
